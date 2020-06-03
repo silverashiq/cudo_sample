@@ -1,0 +1,527 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+
+.container {
+	width: 1140px;
+	margin:0 auto;
+
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+/*Header starts*/
+header {
+	
+	width: 100%;
+	float:left;
+	background-color: #87509C;
+}
+
+
+.myheader{
+margin-top: 30px;
+}
+
+.mylogo{
+	width:40%;
+	float: left;
+}
+
+.mymenu{
+	width: 60%;
+	float:left;
+}
+
+.mymenu {
+;
+}
+
+.mymenu ul{
+list-style: none;
+
+}
+
+.mymenu ul li{
+display: inline-block;
+margin: 0 44px;
+
+}
+
+.mymenu ul li a{
+text-decoration: none;
+color: white;
+font-size: 15px;
+}
+
+
+/*Header Ends*/
+
+
+/*slider starts*/
+
+
+.myslider{
+	width: 100%;
+	float: left;
+	background-color: #87509C;
+	text-align: center;
+	
+}
+
+.slider{
+margin-top: 55px;
+margin-bottom: 230px;
+}
+
+.slider h2{
+color:white;
+}
+
+.slidermargin{
+	margin-bottom: 80px;
+}
+.btn1{
+	font-size: 17px;
+	color: white;
+	background-color: #EB7D4B;
+	padding: 17px 37px;
+	text-decoration: none;
+	margin-bottom: 250px;
+	transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+
+.btn1:hover {
+	box-shadow: 2px 2px 5px #ffffff;
+}
+
+.slider a{
+}
+/*Slider ends*/
+
+
+
+/*Service Starts*/
+.myservice{
+	width: 100%;
+	float: left;
+	background-color: #17C2A4;
+	text-align: center;
+	padding: 65px 0;
+}
+.service-heading h2{
+	letter-spacing: -1px;
+	margin-bottom: 15px;
+}
+
+.infographics{
+	width: 25%;
+	float: left;
+}
+
+.sevice-info{
+	color: white;
+	margin-top: 20px;
+}
+
+.sevice-info img{
+margin-bottom: 15px;
+height: 150px;
+}
+
+.sevice-info h2{
+margin-bottom: 10px;
+}
+
+.sevice-info p{
+font-size: 14px;
+}
+
+
+
+/*Service Ends*/
+
+
+
+
+/*Team Starts*/
+.myteam{
+	width: 100%;
+	float: left;
+	background-color: #E7F3F9;
+	text-align: center;
+	padding: 65px 0;
+}
+
+.team-heading h2{
+	letter-spacing: -1px;
+	margin-bottom: 15px;
+}
+
+.team-info{
+	margin-top: 20px;
+}
+
+.membercol{
+	width: 25%;
+	float: left;
+}
+
+.membercol img{
+margin-bottom: 15px;
+height: 150px;
+}
+
+.membercol h2{
+
+}
+
+.membercol h5{
+color: #6785f2;
+}
+
+.membercol p{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.membercol ul{
+list-style: none;
+}
+
+.membercol ul li{
+display: inline-block;
+font-size: 22px;
+color: white;
+margin: 0 8px;
+
+
+}
+
+.membercol ul li a{
+color: white;
+}
+
+.membercol ul li i{
+padding: 8px;
+}
+
+.fa.fa-facebook{
+background-color: #104976;
+border-radius: 45%;
+}
+
+.fa.fa-twitter{
+background-color: #0A85E5;
+border-radius: 50%;
+}
+
+.fa.fa-linkedin{
+background-color: #0A4472;
+border-radius: 50%;
+}
+
+.fa.fa-envelope-o{
+background-color: #1C2D3B;
+border-radius: 50%;
+}
+
+/*Team Ends*/
+
+/*Skills starts*/
+
+.myskills{
+	width: 100%;
+	float: left;
+	margin:60px 0;
+}
+
+.skills-heading{
+	text-align: center;
+	
+}
+
+.skills-heading h1{
+	margin-bottom: 15px;
+	letter-spacing: -1px;
+
+}
+
+.skills-info{
+	margin-top: 25px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.skills-info h2{
+	margin-top: 40px;
+}
+
+.circletext {
+    position: absolute;
+    text-align: center;
+    margin: 71px 64px;
+}
+
+/*Skills Ends*/
+
+.myportfolio{
+	width: 100%;
+	float: left;
+	background-color: #FFDD98;
+}
+
+.port-heading{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.port-heading h1{
+
+}
+
+.port-heading ul{
+margin-top: 40px;
+list-style: none;
+}
+
+.port-heading ul li{
+display: inline-block;
+margin: 0 5px;
+padding: 5px;
+background-color: #C7AC77;
+}
+
+.port-heading ul li h4{
+	
+}
+
+
+.port-info{
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-align: center;
+	
+}
+
+.port-pc{
+	width: 50%;
+	float: left;
+}
+
+
+
+.btn2 {
+    font-size: 17px;
+    color: white;
+    background-color: #17C1A4;
+    padding: 16px 37px;
+    text-decoration: none;
+    margin-top: 30PX;
+    display: inline-block;
+    margin-bottom: 60px;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+
+.btn2:hover {
+	box-shadow: 2px 2px 5px #ffffff;
+}
+/*Skills Ends*/
+
+
+
+/*Client Starts*/
+.myclients{
+	width: 100%;
+	float: left;
+	background-color: #D64581;
+}
+
+.clients-heading{
+	text-align: center;
+	margin: 60px 0;
+}
+
+.clients-heading h1{
+margin-bottom: 15px;
+letter-spacing: -1px;
+}
+
+.clients-heading p{
+margin-bottom: 15px;
+}
+
+
+.clients-info{
+    margin-left: 150px;
+}
+
+.Clientbox{
+	width: 50%;
+	float: left;
+	margin-bottom: 60px;
+}
+
+
+.clientpic{
+width: 20%;
+float: left;
+}
+
+.clientinfo{
+width: 80%;
+float: left;
+}
+.clients-info img{
+	height: 100px;
+}
+
+.clientinfo p{
+color: white;
+margin-left:20px;
+margin-bottom: 15px;
+}
+.clientinfo h3{
+color: white;
+margin-bottom: 10px;
+}
+
+.clientinfo h5{
+color: yellow;
+}
+/*Client Ends*/
+
+
+
+
+
+
+
+/*Forms Starts*/
+.mycontact{
+	width: 100%;
+	float: left;
+	background-color: #3C549A;
+
+}
+
+
+.contact-heading{
+	text-align: center;
+	margin: 60px 0;
+}
+
+.contact-heading h1{
+	font-size: 30px;
+	color: #323131;
+margin-bottom: 10px;
+}
+
+.contact-heading h4{
+
+}
+
+.contact-info{
+	text-align: center;
+}
+
+.name-mail{
+margin-bottom: 10px; 
+
+}
+
+.text-mail{
+
+}
+
+
+.form-control1{
+margin-right: 40px;
+padding: 10px 120px 10px 10px;
+border-style: none;
+color: #757575;
+background-color: #0C3053;
+}
+
+.form-control2{
+margin-left: 40px; 
+padding: 10px 120px 10px 10px;
+border-style: none;
+color: #757575;
+background-color: #0C3053;
+}
+
+.form-control3{
+padding: 10px 509px 250px 9px;
+border-style: none;
+color: #757575;
+background-color: #0C3053;
+}
+
+.btn3 {
+
+    font-size: 17px;
+    color: white;
+    background-color: #30BBE9;
+    padding: 16px 37px;
+    text-decoration: none;
+    margin-top: 30PX;
+    display: inline-block;
+    margin-bottom: 200px;
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+}
+
+.btn3:hover {
+	background-color: #4169E1;
+	box-shadow: 2px 2px 5px #ffffff;
+}
+
+/*Form Ends*/
+
+
+
+
+
+
+
+
+
+/*Footer Section starts*/
+footer{
+	width: 100%;
+	float:left;
+	background-color: #344B8F;
+
+}
+
+footer ul{
+margin: 25px 0;
+list-style: none;
+text-align: center;
+}
+
+footer ul li{
+display: inline-block;
+margin: 0 40px;
+}
+
+footer ul li a{
+color: white;
+font-size: 15px;
+text-decoration: none;
+
+}
+
+/*footer Ends*/
